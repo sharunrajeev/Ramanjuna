@@ -1,4 +1,5 @@
 /* Element Selectors */
+
 body {
   background-color: #28527a;
   color: #ffffff;
@@ -40,9 +41,11 @@ table {
   font-family: "Times New Roman", Times, serif;
 }
 
+
 /* Class Selectors */
+
 .quick-facts {
-  margin: 10px 0px 15px;
+  margin: 10px 0 15px;
   padding: 1px 10px 1px;
   border: 1px solid #f4d160;
 }
@@ -51,7 +54,7 @@ table {
   margin-top: 10px;
   width: 100%;
   text-align: center;
-  border: 1px solid #f4d160;
+  border: -1px solid #f4d160;
 }
 
 .footer-link {
@@ -73,7 +76,9 @@ table {
   margin-bottom: 25px;
 }
 
+
 /* ID Selectors */
+
 #main {
   width: 90%;
   margin: 10px auto;
@@ -88,7 +93,7 @@ table {
 }
 
 #tribute-info {
-  margin: 10px 0px 15px;
+  margin: 10px 0 15px;
   padding: 1px 10px 1px;
 }
 
@@ -97,22 +102,22 @@ table {
   text-decoration: none;
 }
 
+
 /* Media Queries */
+
 @media only screen and (min-width: 768px) {
   #main {
-    width: 80%;
+      width: 80%;
   }
 }
 
 @media only screen and (min-width: 992px) {
   #main {
-    width: 70%;
+      width: 70%;
   }
-
   table {
-    margin: 10px;
-    font-size: 1.1rem;
-    font-family: "Times New Roman", Times, serif;
+      margin: 10px;
+      font-size: 1.1rem;
+      font-family: "Times New Roman", Times, serif;
   }
-  
 }
