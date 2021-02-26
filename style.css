@@ -41,7 +41,6 @@ table {
   font-family: "Times New Roman", Times, serif;
 }
 
-
 /* Class Selectors */
 
 .quick-facts {
@@ -81,7 +80,6 @@ table {
   margin-bottom: 25px;
 }
 
-
 /* ID Selectors */
 
 #main {
@@ -112,22 +110,21 @@ table {
   text-decoration: none;
 }
 
-
 /* Media Queries */
 
 @media only screen and (min-width: 768px) {
   #main {
-      width: 80%;
+    width: 80%;
   }
 }
 
 @media only screen and (min-width: 992px) {
   #main {
-      width: 70%;
+    width: 70%;
   }
   table {
-      margin: 10px;
-      font-size: 1.1rem;
-      font-family: "Times New Roman", Times, serif;
+    margin: 10px;
+    font-size: 1.1rem;
+    font-family: "Times New Roman", Times, serif;
   }
 }
