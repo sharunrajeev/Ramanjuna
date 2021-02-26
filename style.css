@@ -66,6 +66,11 @@ table {
   opacity: 80%;
 }
 
+.footer-seperator {
+  text-align: center;
+  opacity: 50%;
+}
+
 .qa-title {
   font-size: 2rem;
   text-align: center;
@@ -90,6 +95,11 @@ table {
 
 #image {
   width: 100%;
+}
+
+#img-caption {
+  text-align: center;
+  opacity: 70%;
 }
 
 #tribute-info {
